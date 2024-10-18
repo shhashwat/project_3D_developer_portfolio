@@ -15,10 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -46,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React.js Developer",
     icon: mobile,
   },
   {
@@ -54,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "MERN Stack developer",
     icon: creator,
   },
 ];
@@ -81,7 +79,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "c++",
     icon: redux,
   },
   {
@@ -97,10 +95,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -109,62 +103,36 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
+    name: "java",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Engineer Trainee",
+    company_name: "JP Morgan Chase & Co.",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Set up a local dev environment by downloading the necessary files, tools and dependencies.",
+      "Fixed broken files in the repository to make web application output correctly.",
+      "Used JPMorgan Chase’s open source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor.",
+      "Worked with various tools and technologies such as Git, GitHub, Visual Studio Code, Python, React, TypeScript, etc.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Advanced Software Engineer Intern",
+    company_name: "Walmart Global Tech",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed the Advanced Software Engineering Job Simulation where I solved difficult technical projects for a variety of teams at Walmart.",
+      "Developed a novel version of a heap data structure in Java for Walmart’s shipping department, showcasing strong problem-solving and algorithmic skills.",
+      "Designed a UML class diagram for a data processor, considering different operating modes and database connections.",
+      "Created an entity relationship diagram to design a new database accounting for all requirements provided by Walmart’s pet department.",
     ],
   },
 ];
@@ -198,9 +166,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "WhatsTheWord?",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "WhatsTheWord? is a dynamic web-based social platform that enables users to create, share, and interact with posts effortlessly. Designed to offer a seamless experience, it integrates modern technologies and features to keep you engaged and connected.",
     tags: [
       {
         name: "react",
@@ -214,21 +182,26 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "mernstack",
+        color: "blue-text-gradient",
+      },
+
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/shhashwat/WhatsTheWord.git",
   },
   {
-    name: "Job IT",
+    name: "Convo-Connect!",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to share messages and send pictures with other registered users on the website. You can search up the users, text them and the most recent chats appear on the top of the sidebar, current and the latest sent messages appear by the users.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -237,23 +210,23 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/shhashwat/Convo-Connect.git",
   },
   {
-    name: "Trip Guide",
+    name: "RESTfull API based Crud App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The RESTful API-based CRUD App Backend is a robust platform designed to handle essential CRUD operations efficiently. This backend service provides a reliable and scalable solution for managing data through a RESTful API.",
     tags: [
       {
-        name: "nextjs",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "expressjs",
         color: "pink-text-gradient",
       },
     ],
