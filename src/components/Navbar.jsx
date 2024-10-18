@@ -42,11 +42,15 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <a href="https://www.linkedin.com/in/shashwat-singh-742381245/">
+            <img src={logo} alt='logo' className='w-9 h-9 object-contain'/>
+          </a>
+          <a href="https://drive.google.com/file/d/1uJtxS82wppkn0eTv-KRJMQ1BTBHzkC5j/view?usp=sharing">   
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Shashwat Singh&nbsp;
             <span className='sm:block hidden'> | Full Stack Developer</span>
           </p>
+          </a>
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
